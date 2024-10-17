@@ -14,13 +14,14 @@ int main(){
         if(A[i]>A[i+1]){
             int B = A[i];
             A[i]=A[i+1];
-            A[i+1]= B;
+            A[i+1]= B;git 
             i=0;
         }else{
         i++;
         }
     }
     cout<< "\n";
+
 
 }
 
@@ -123,11 +124,9 @@ void V1(){
 
     /*B array and A will have the same values*/
 
-
 }
     
     
-
 void V3_revers(){
     int N = 5;
     int A[N] = {1,2,3,4,5}; // doesn't work with old compilators; 
