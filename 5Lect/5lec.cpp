@@ -21,8 +21,6 @@ int main(){
         }
     }
     cout<< "\n";
-
-
 }
 
 void bubble_sort(){ 
@@ -58,10 +56,7 @@ void if_sorted(){
         i++;
     }
     cout<< is_sorted;
-
-
 }
-
 
 void stack(){
     int N = MAX_A_SIZE;
@@ -78,7 +73,6 @@ void stack(){
         cout<< A[--top]<< '\t';
     }
     cout<< '\n';
-
 }
 
 void unlimit_arr(){
@@ -94,25 +88,16 @@ void unlimit_arr(){
     }
     for(int i=0; i<top; ++i){
         cout<< A[i]<< '\t';
-
     }
-
-
 
 }
 
 
 
-
-
-
-
-
-
+// That was before
 void V1(){
     //---v1
     // B =A           l-value error 
-
     //---v2
     int N = 5;
     int A[N] = {1,2,3,4,5}; // doesn't work with old compilators; 
@@ -123,7 +108,6 @@ void V1(){
     }
 
     /*B array and A will have the same values*/
-
 }
     
     
@@ -144,13 +128,9 @@ void V4_reverseW3var(){
         int tmp = A[N-i-1];
         A[N-i-1] = A[i];
         A[i] = tmp;
-
     }
     for(int i=0; i<N; i++){
         cout<< A[i]<<"\t";
-
     }
-
-
 }
 
