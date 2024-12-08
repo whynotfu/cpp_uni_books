@@ -2,6 +2,10 @@
 #include <string>
 
 void TimeManager(int, int);
+double SunTOAstrology(double);
+double CelTOFar(int);
+void first(void);
+void Sec(void);
 
 int main(){
     using namespace std;
@@ -18,9 +22,6 @@ void TimeManager(int hours, int min){
     std::cout<< "Time: "<< hours<<":"<< min<< std:: endl;
 }
 
-
-double SunTOAstrology(double);
-
 void F6(){
     using namespace std;
     double Ly;
@@ -28,19 +29,11 @@ void F6(){
     cin>>Ly;
     double Ay = SunTOAstrology(Ly);
     cout << Ly <<" light years  = "<< Ay << " astronomical units."; 
-
 }
-
 
 double SunTOAstrology(double Ly){
     return 63240*Ly;
 }
-
-
-
-
-double CelTOFar(int);
-
 void F5(){
     using namespace std;
     int celc;
@@ -49,13 +42,10 @@ void F5(){
     double far = CelTOFar(celc);
     cout<< celc<< " degrees Celsius is "<< far << " degrees Fahrenhait."<< endl;
 }
-
 double CelTOFar(int cel){
     return 1.8*cel+32;
 
 }
-
-
 void AgeTOMonths(){
     using namespace std;
     int age;
@@ -64,16 +54,12 @@ void AgeTOMonths(){
     cout<< "Your age in months is "<< age*12<< "."<< endl;
 
 }
-
-void first(void);
-void Sec(void);
 void Mice(){
     first();
     first();
     Sec();
     Sec();
 }
-
 
 void first(){
     std::cout<< "Three blind mice"<< std::endl;
