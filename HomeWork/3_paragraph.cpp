@@ -55,7 +55,6 @@ void start(){
     }
 
 }
-
 void inchInFeets(){
     double inch;
     std::cout<<"What is the value in inches:____\b\b\b\b";
@@ -132,4 +131,4 @@ void toUSmesur(){
     std::cin>>literPkm;
     std::cout<<"This is about: "<<1/((LIT_TO_GAL / KM_TO_MILES) * (literPkm)) << "\n";
     start();
-}
+} 

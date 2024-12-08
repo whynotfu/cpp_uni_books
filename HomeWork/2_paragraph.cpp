@@ -29,11 +29,13 @@ void F6(){
     cin>>Ly;
     double Ay = SunTOAstrology(Ly);
     cout << Ly <<" light years  = "<< Ay << " astronomical units."; 
+
 }
 
 double SunTOAstrology(double Ly){
     return 63240*Ly;
 }
+
 void F5(){
     using namespace std;
     int celc;
@@ -60,7 +62,6 @@ void Mice(){
     Sec();
     Sec();
 }
-
 void first(){
     std::cout<< "Three blind mice"<< std::endl;
 
